@@ -1,4 +1,4 @@
-package{ "webpack_remove":
+package{ "httpd_remove":
 name => "httpd",
 ensure => absent,
 }

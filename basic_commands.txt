@@ -1,0 +1,4 @@
+puppet apply <file_name>.pp
+file_name_convention: <any_name>.pp
+puppet --version
+<file_name>.pp --> Manifest/program file
