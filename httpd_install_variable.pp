@@ -1,5 +1,13 @@
 $h = "httpd"
 
+# Just a notification
+notify { "Welcome to httpd installation via Puppet" :
+}
+
+# ::processors is system defined variable {can be checked via facter command}
+notify { "Your Operating system model is :  ${::processors[models][0]}":
+}
+
 # Installing the httpd
 package{"httpd_pack":
 name => $h,
@@ -8,8 +16,8 @@ ensure => installed,
 
 # Here we are creating a sample file
 file {"webpage":
-path => "/var/www/html/vignesh.html",
-content => "this is test page",
+path => "/var/www/html/welcome_vignesh.html",
+content => " <body style='background-color:powderblue;'>\n<h1>Welcome to Puppet 5.0 installed httpd<h1> ",
 ensure => file,
 }
 

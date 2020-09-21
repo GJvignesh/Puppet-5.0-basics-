@@ -1,0 +1,4 @@
+https://drive.google.com/drive/folders/1_q3xBSfVPdWiexnsFoOEvk1nDw2Yg3q6
+https://puppet.com/docs/puppet/5.5/puppet_index.html
+https://puppet.com/docs/puppet/5.5/types/service.html
+https://puppet.com/docs/puppet/5.5/types/file.html
